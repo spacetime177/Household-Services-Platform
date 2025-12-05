@@ -1,99 +1,105 @@
-# Household-Services-Platform
-Household Services Platform
-Flask • SQLite • SQLAlchemy • Jinja2 • Bootstrap
+Here is a **clean, polished, GitHub-ready README.md** you can paste directly into your repository — no edits needed.
 
-A multi-user household services management platform built with Flask.
-The system supports Admin, Customer, and Service Professional roles, each with their own dashboards and permissions.
+---
 
-🚀 Features
-🔐 Multi-Role Authentication
+# 🏠 Household Services Platform
 
-Separate login system for:
+**Flask • SQLite • SQLAlchemy • Jinja2 • Bootstrap**
 
-Admin
+A multi-user household services management platform built using Flask.
+The system supports **Admin**, **Customer**, and **Service Professional** roles with dedicated dashboards and permissions.
 
-Customer
+---
 
-Service Professional
+## ⭐ Features
 
-👤 Admin Panel
+### 🔐 Multi-Role User System
 
-Approve or reject new service professionals
+* Separate logins for:
 
-Manage users and professionals
+  * **Admin**
+  * **Customer**
+  * **Service Professional**
 
-View all service requests
+### 🧑‍💼 Admin Dashboard
 
-Full CRUD operations for service categories
+* Approve / reject service professionals
+* Manage users and professionals
+* View all service requests
+* Add / update / delete service categories
 
-🧑‍🔧 Service Professional Dashboard
+### 🧑 Customer Dashboard
 
-View service requests assigned to them
+* Request household services
+* Track request status
+* View service history
 
-Accept / Reject pending service tasks
+### 🧑‍🔧 Service Professional Dashboard
 
-Mark tasks as completed
+* View tasks assigned to them
+* **Accept / Reject** customer requests
+* **Close completed tasks**
+* View work history
 
-View work history and status updates
+### 🛠 Backend
 
-🧑 Customer Panel
+* Flask-based modular architecture
+* SQLite database with SQLAlchemy ORM
+* Role-based access control
+* Secure session management
 
-Browse and request household services
+### 🎨 Frontend
 
-Track request status (Pending / Accepted / Rejected / Completed)
+* Jinja2 templating engine
+* Responsive UI using Bootstrap
 
-View history of previous service requests
-
-🛠️ Backend Architecture
-
-Flask-based MVC structure
-
-SQLite + SQLAlchemy ORM
-
-Role-based access control
-
-Secure session handling
-
-🎨 Frontend
-
-Dynamic UI using Jinja2 templating
-
-Responsive pages built with Bootstrap
+---
 
 
-🏃‍♂️ How to Run
+---
 
-Clone the repo:
+## 🚀 Getting Started
 
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/yourusername/household-services-platform.git
 cd household-services-platform
+```
 
+### 2️⃣ Install Dependencies
 
-Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
+### 3️⃣ Initialize Database
 
-Initialize the database:
-
+```bash
 python init_db.py
+```
 
+### 4️⃣ Run the Application
 
-Start the server:
-
+```bash
 python app.py
+```
 
+### 5️⃣ Open in Browser
 
-Open in browser:
+```
 http://127.0.0.1:5000
+```
+
+---
+
+## 🔮 Future Enhancements
+
+* Email/SMS notifications
+* Online payment integration
+* Real-time updates using WebSockets
+* Mobile-friendly REST API
+
+---
 
 
-📝 Future Enhancements
-
-JWT-based API for mobile apps
-
-Payment integration
-
-Email notifications
-
-Real-time updates using WebSockets
