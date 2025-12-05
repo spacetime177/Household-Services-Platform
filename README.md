@@ -1,7 +1,3 @@
-Here is a **clean, polished, GitHub-ready README.md** you can paste directly into your repository — no edits needed.
-
----
-
 # 🏠 Household Services Platform
 
 **Flask • SQLite • SQLAlchemy • Jinja2 • Bootstrap**
